@@ -9,9 +9,8 @@ export default function Task({ task }) {
     return (
         <div>
             <h1 className="text-5xl mt-4 font-semibold tracking-wide">{task.title}</h1>
-            <p className="text-sm font-light my-4">{task.date}</p>
             <div className="mt-8">
-                {task.title}
+                {task.date}
             </div>
         </div>
     )
